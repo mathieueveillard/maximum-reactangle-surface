@@ -1,9 +1,20 @@
-# js-kata-starter
+# maximum*reactangle*surface
 
-Starter project for kata (Node, TypeScript, Jest)
+Determine the coordinates of the rectangle with the maximum surface that one can place in a 2\*dimensions surface populated with obstacles (`X`), e.g.:
 
-## Getting started
-
-- **Fork**, then clone the repository
-- Install dependencies
-- Start developing (`npm test`)
+```
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+*           X                      X                *
+*     X * * * * * * * * * * * * *                   *
+*       *                       * X           X     *
+*       *                       *                   *
+*       *                       *       X           *
+*       *                       *                   *
+*       * * * * * * * * * * * * *                   *
+*           X                   X                   *
+*                                           X   X X *
+*                       X                 X         *
+* X                              X                  *
+*       X                                           *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+```
